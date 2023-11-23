@@ -6,42 +6,74 @@
     <title>Home</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
             color: #333;
         }
         header {
             text-align: center;
             padding: 20px;
-            background-color: #f2f2f2;
+            background-color: #ffffff;
             color: #0066cc;
         }
-        section {
-            max-width: 600px;
+        header img {
+            max-width: 200px; /* Adjust the size as needed */
+            height: auto;
+            cursor: pointer;
+            display: block;
             margin: auto;
         }
-        footer {
-            text-align: center;
+        section {
+            max-width: 800px; /* Adjust the size as needed */
+            margin: auto;
             padding: 20px;
-            background-color: #f2f2f2;
-            color: #555;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: -30px; /* Adjust as needed for alignment with the header */
         }
-        img {
-            max-width: 100%;
-            height: auto;
+        section h2 {
+            color: #0066cc;
+        }
+        section p {
+            color: #555;
         }
         ul {
             list-style-type: none;
             padding: 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
         }
         li {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         a {
             color: #0066cc;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        a:hover {
+            color: #004080;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #555;
         }
     </style>
 </head>
@@ -51,23 +83,23 @@
         <h1>Welcome to Our Brand Catalog</h1>
         <p>Contact: your@email.com</p>
     </header>
-<section>
-    <h2>Our Brands</h2>
-    <p>We take pride in offering authentic and high-quality products. Explore our brands and discover the excellence we deliver.</p>
-    <ul>
-        <li>
-            <a href="nevada.html">
-                <img src="images/Nevada final.jpg" alt="Nevada Product" width="150" height="100">
-            </a>
-        </li>
-        <li>
-            <a href="corona.html">
-                <img src="images/Minimatt Corona.jpg" alt="Corona Product" width="150" height="100">
-            </a>
-        </li>
-        <!-- Add more product links as needed -->
-    </ul>
-</section>
+    <section>
+        <h2>Our Brands</h2>
+        <p>We take pride in offering authentic and high-quality products. Explore our brands and discover the excellence we deliver.</p>
+        <ul>
+            <li>
+                <a href="nevada.html">
+                    <img src="images/Nevada final.jpg" alt="Nevada Product">
+                </a>
+            </li>
+            <li>
+                <a href="corona.html">
+                    <img src="images/Minimatt Corona.jpg" alt="Corona Product">
+                </a>
+            </li>
+            <!-- Add more product links as needed -->
+        </ul>
+    </section>
     <footer>
         <p>&copy; 2023 Your Company Name. All rights reserved.</p>
     </footer>
