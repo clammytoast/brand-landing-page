@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your One-Page Website</title>
+    <title>Your One-Page Website - Nevada</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,21 +17,34 @@
             background-color: #ffffff;
             color: #0066cc;
         }
-        header h1 {
-            color: #000000;
+        header img {
+            max-width: 300px; /* Adjust the size as needed */
+            height: auto;
+            cursor: pointer;
+            display: block;
+            margin: auto;
         }
         section {
             max-width: 600px;
             margin: auto;
+            padding: 20px;
         }
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #D3D3D3;
+            background-color: #ffffff;
             color: #000000;
         }
-        img {
-            max-width: 100%;
+        button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+        button img {
+            width: 30px; /* Adjust the size as needed */
             height: auto;
         }
     </style>
@@ -39,7 +52,6 @@
 <body>
     <header>
         <img src="images/nevada new logo v2.png" alt="Your Brand Logo">
-        <h1>Welcome to the Nevada Product Page</h1>
         <p>Contact: your@email.com</p>
     </header>
     <section>
@@ -49,7 +61,9 @@
         </p>
         <h2>Details for Nevada</h2>
         <!-- Add specific details for the Nevada product -->
-        <button onclick="location.href='index.html'">🔙</button>
+        <button onclick="location.href='index.html'">
+            <img src="images/arrow_back_ios_FILL0_wght400_GRAD0_opsz24.png" alt="Back to Catalog">
+        </button>
     </section>
     <footer>
         <p>&copy; 2023 Your Company Name. All rights reserved.</p>
